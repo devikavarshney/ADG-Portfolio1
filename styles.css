@@ -1,3 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+  background-color: #0c0a10;
+  font-family: "Inter", sans-serif;
+}
+.nav-part {
+  margin: 100px 186px auto;
+  max-width: 1068px;
+}
+
+.heading {
+  color: #652cdf;
+  text-align: left;
+  position: relative;
+  font-size: 14px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.heading-text {
+  margin-left: 60px;
+}
+.heading:before {
+  content: "";
+  display: block;
+  width: 55px;
+  height: 2px;
+  border-radius: 20px;
+  background: #652cdf;
+  top: 50%;
+  position: absolute;
+}
+.works {
+  margin-top: 0px;
+  font-size: 30px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.main a {
+  color: #858487;
+  position:relative;
+  text-decoration: none;
+  font-size: 14px;
+  margin: auto 5px auto 5px;
+}
+.main a:hover {
+  color: #652cdf;
+}
+
+.main a:after{
+  content:"";
+  position:absolute;
+  background-color: #652cdf;
+  height:2px;
+  width:0;
+  left:0;
+  bottom:-10px;
+  transition:0.3s;
+}
+.main a:hover:after{
+  width:60%;
+}
+
+.main {
+  margin-left: 240px;
+}
+.link {
+  text-decoration: none;
+}
+.card-part {
+  margin: 40px 186px auto;
+  max-width: 1068px;
+}
+.card1 {
+  width: 285px;
+  height: 383px;
+  background-color: #131118;
+  border-radius: 6px;
+  align-items: left;
+  margin-right: 6.7px;
+  margin-bottom: 6.7px;
+}
+.card-desc {
+  font-size: 15px;
+  color: #652cdf;
+}
+.card-desc-sec {
+  font-size: 15px;
+  color: #858487;
+  margin-bottom: 30px;
+}
+.card-data {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.keyword {
+  padding: 7px;
+  margin: 2px;
+  border-radius: 4px;
+  font-size: 12px;
+  background-color: #2c3246;
+  color: #858487;
+}
+.card-img {
+  width: 245px;
+  height: 162px;
+  border-radius: 6px;
+}
+.image {
+  padding-left: 20px;
+  padding-top: 40px;
+}
+.float-child {
+  float: left;
+}
+.float-child2 {
+  float: left;
+}
+@media all  and (max-width:1024px) {
+  .nav-part{
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .heading{
+    margin-left: 15px;
+  }
+  .main::before{
+      content: "\a";
+      white-space: pre;
+  }
+  .main {
+    margin-left: 10px;
+  }
+  .card-part {
+    margin: 40px 94px auto;
+    max-width: 1068px;
+  }
+  .card1{
+    margin-bottom: 12px;
+  }
+}
+/* @media only screen and (max-device-width:480px){
+  .nav-part{
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+} */
 html{
     font-size: 100%;
 } 
