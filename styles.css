@@ -358,6 +358,7 @@ footer{
 .segment1 {
     display:flex;
     justify-content: space-between;
+    
 }
 .whatido {
     padding-top:80px;
@@ -478,7 +479,7 @@ h2 {
     display:flex;
     padding-top:60px;
     padding-left:150px;
-    padding-bottom:200px;
+    padding-bottom:100px;
 }
 .change2 {
     width:394px;
@@ -561,12 +562,13 @@ h2 {
     text-decoration: underline;
 }
 
+
 .car1 {
     position:absolute;
     width:165px;
     height:261px;
     left:721px;
-    top:500px;
+    top:1050px;
     background:#131118;
     border-radius:6px;
     transform:rotate(-90deg);
@@ -586,7 +588,7 @@ h2 {
     width:221px;
     height:328px;
     left:950px;
-    top:548px;
+    top:1098px;
     background:#131118;
     border-radius:6px;
 }
@@ -604,7 +606,7 @@ h2 {
     width:221px;
     height:328px;
     left:713px;
-    top:725px;
+    top:1278px;
     background:#131118;
     border-radius:6px;
 }
@@ -622,7 +624,7 @@ h2 {
     width:221px;
     height:260px;
     left:950px;
-    top:890px;
+    top:1440px;
     background:#131118;
     border-radius:6px;
     animation: fadeInRight 1s ease-in-out;
@@ -649,28 +651,29 @@ h2 {
         padding-left:20px;
         
     }
-    .cards {
+    .box {
         display:flex;
         flex-direction:column;
         padding-left:10px;
     }   
     
-    .card1 {
+    .box1 {
         top:20px;
         left:50px;
     }
-    .card2 {
+    .box2 {
         top:50px;
         left:50px;
         
     }
-    .card3 {
+    .box3 {
         top:80px;
         left:50px;
     }
     .segment2 {
         flex-direction:column;
         padding-left:20px;
+        padding-bottom:580px;
        
     }
     .aboutme {
@@ -697,11 +700,11 @@ h2 {
     }
     .car1 {
         left:65px;
-        top:1500px;
+        top:2500px;
     }
     .car2 {
-        left:20px;
-        top:1720px;
+        left:290px;
+        top:2550px;
         width:175px;
     }
     .car2_img {
@@ -709,8 +712,8 @@ h2 {
         left:15px;
     }
     .car3 {
-        left:200px;
-        top:1720px;
+        left:50px;
+        top:2726px;
         width:175px;
     }
     .car3_img {
@@ -718,8 +721,8 @@ h2 {
         left:15px;
     }
     .car4 {
-        left:20px;
-        top:2060px;
+        left:250px;
+        top:2900px;
     }
 }
 
@@ -735,18 +738,18 @@ h2 {
     .change1 {
         width:350px;
     }
-    .cards {
+    .box {
         display:flex;
         flex-direction:column;
     }
-    .card1 {
+    .box1 {
         left:60px;
     }
-    .card2 {
+    .box2 {
         top:15px;
         left:60px;
     }
-    .card3 {
+    .box3 {
         top:30px;
         left:60px;
     }
@@ -754,7 +757,8 @@ h2 {
         padding-left:30px;
     }
     .aboutme {
-        padding-top:20px;
+        padding-left:30px;
+        padding-top:100px;
     }
     .change2 {
         width:300px;
@@ -776,8 +780,8 @@ h2 {
         padding-bottom:4px;
     }
     .car1 {
-        top:600px;
-        left:365px;
+        top:1240px;
+        left:400px;
         width:175px;
         height:150px;
         transform:rotate(180deg);
@@ -790,8 +794,8 @@ h2 {
         transform:rotate(180deg);
     }
     .car2 {
-        top:600px;
-        left:550px;
+        top:1240px;
+        left:590px;
         width:175px;
     }
     .car2_img {
@@ -799,8 +803,8 @@ h2 {
         left:15px;
     }
     .car3 {
-        top:760px;
-        left:365px;
+        top:1400px;
+        left:400px;
         width:175px;
     }
     .car3_img {
@@ -808,8 +812,8 @@ h2 {
         left:15px;
     }
     .car4 {
-        top:940px;
-        left:550px;
+        top:1580px;
+        left:590px;
         width:170px;
     }
     .car4_img {
