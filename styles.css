@@ -353,22 +353,17 @@ footer{
     }
 }
 
-
-
 .segment1 {
     display:flex;
-    justify-content: space-between;
-    
-}
-.whatido {
-    padding-top:80px;
-    padding-left:600px;
-    
+    justify-content:space-between;
 }
 .row1 {
     display:flex;
 }
-
+.whatido {
+    padding-top:100px;
+    padding-right:115px;
+}
 
 .first {
     width:55px;
@@ -379,16 +374,11 @@ footer{
 }
 .second {
     padding-left:5px;
-    font-family: 'Inter', sans-serif;
-    font-style:normal;
-    font-weight:bold;
     font-size:18px;
     line-height:2px;
     color:#652CDF;
 }
-.para1 {
-    padding-top: 40px;
-}
+
 
 .box {
     padding-top: 30px;
@@ -406,7 +396,7 @@ footer{
 .box2 {
     position:relative;
     width:244px;
-    height:156px;
+    height:155px;
     left:450px;
     bottom:2%;
     background:#131118;
@@ -420,6 +410,7 @@ footer{
     bottom: 20%;
     background:#131118;
     border-radius:10px;
+    bottom:100px;
 }
 .box_info {
     position:relative;
@@ -455,130 +446,120 @@ footer{
     font-size:18px;
     color:#FFFFFF;
 }
-h2 {
-    position:relative;
-    font-family: 'Inter', sans-serif;
-    font-style:normal;
-    font-weight:bold;
-    font-size:33px;
-    line-height:44px;
-    color:#FFFFFF;
+.ele {
+   position:relative;
+   width:304px;
+   font-size: 20px;
+   color:#fff;
+}
+.para1 {
+   padding-top:10px;
 }
 .para1_info {
     position:relative;
-    font-family: 'Inter', sans-serif;
     font-style:normal;
     width:350px;
-    padding-top:10px;
+    padding-top:5px;
     font-weight:600;
     font-size:20px;
     line-height:171.02%;
     color:#858487;
+    
 }
 .segment2 {
     display:flex;
     padding-top:60px;
     padding-left:150px;
-    padding-bottom:100px;
+    padding-bottom:150px;
+   
 }
-.change2 {
-    width:394px;
+.aboutme {
+    display:inline-grid;
+    grid-row-gap:5px;
+    
 }
+.hea {
+   width:23rem;
+   font-size: 20px;
+   color:#fff;
+}
+
+
 .p2 {
-    position:relative;
-    font-family: 'Inter', sans-serif;
-    font-style:normal;
     color:#858487;
     width:483px;
-    height:78px;
-    padding-top:30px;
     font-size:20px;
     line-height:24px;
     
 }
-.pointers {
-    padding-top:20px;
-}
+
 .ro1 {
-    width:400px;
     display:flex;
     justify-content: space-between;
-    padding-top:20px;
+    width:400px;
     
 }
 .ro2{
-    width:399px;
-    padding-top:30px;
     display:flex;
     justify-content: space-between;
+    width:399px;
 }
 
-.f1 {
+.f1,.s1 {
     color:#652CDF;
 
 }
 .point {
     padding-left:10px;
     color:#FFFFFF;
-    font-family: 'Inter', sans-serif;
-    font-style:normal;
     font-weight:bold;
     font-size:18px;
     line-height:22px;
 
-}
-.s1 {
-    color:#652CDF;
 }
 .s2 {
+    color:#652CDF;
+    padding-top:30px;
     padding-right:8px;
 }
+.f2 {
+    color:#652CDF;
+    padding-top:30px;
+}
 
-.end {
-    width:300px;
-    padding-top:60px;
-    padding-bottom:20px;
+.en {
     display:flex;
-    justify-content: space-between;
-}
-.footer1 {
-    width:133px;
-    height:47px;
-    background:#652CDF;
-    border:1px solid #652CDF;
-    box-sizing:border-box;
-    border-radius:6px;
-    font-size:18px;
-    color:#FFFFFF;
-}
-.footer2 {
+    align-items: center;
+    justify-content:space-between ;
+    width:300px;
     padding-top:10px;
-    font-family: 'Inter', sans-serif;
-    font-style:normal;
+   
+}
+
+.footer2 {
     font-weight:bold;
     font-size:18px;
     line-height:22px;
     color:#652CDF;
-    text-decoration: underline;
+    cursor:pointer;
 }
 
 
 .car1 {
     position:absolute;
-    width:165px;
-    height:261px;
-    left:721px;
-    top:1050px;
+    width:250px;
+    height:165px;
+    left:685px;
+    top:1099px;
     background:#131118;
     border-radius:6px;
-    transform:rotate(-90deg);
+    
 }
 .car1_img {
     position:relative;
-    transform:rotate(90deg);
-    top:64px;
-    right:28px;
-    width:222.62px;
+    top:15px;
+    left:15px;
+    width:220px;
     height:134.16px;
 }
 
@@ -627,7 +608,7 @@ h2 {
     top:1440px;
     background:#131118;
     border-radius:6px;
-    animation: fadeInRight 1s ease-in-out;
+    
 }
 .car4_img {
     position:relative;
@@ -645,51 +626,64 @@ h2 {
     .segment1 {
         display:flex;
         flex-direction:column-reverse;
-    }
+    } 
     .whatido {
-        padding-top:50px;
-        padding-left:20px;
-        
+        padding-top:20px;
+        padding-left:80px;
+    }
+    .first {
+        width:35px;
+    }
+    .second {
+        font-size:15px;
+    }
+    .ele {
+      font-size:15px;
+    }
+    .para1_info {
+        font-size:15px;
+        width:200px;
     }
     .box {
         display:flex;
         flex-direction:column;
-        padding-left:10px;
     }   
     
     .box1 {
         top:20px;
-        left:50px;
+        left:60px;
     }
     .box2 {
         top:50px;
-        left:50px;
-        
+        left:60px;
     }
     .box3 {
         top:80px;
-        left:50px;
+        left:60px;
     }
     .segment2 {
         flex-direction:column;
-        padding-left:20px;
-        padding-bottom:580px;
-       
+        padding-left:80px;
+        padding-bottom:20px;
     }
     .aboutme {
         padding-top:90px;
     }
-    .change2 {
+    .hea {
         width:300px;
+        font-size:15px;
     }
     .p2 {
-        width:300px;
-        padding-top:20px;
+        font-size:15px;
+        width:250px;
+        padding-top:5px;
     }
     .ro1 {
+        font-size:15px;
         flex-direction:column;
     }
     .ro2 {
+        font-size:15px;
         flex-direction:column;
     }
     .s1 {
@@ -698,31 +692,12 @@ h2 {
     .f2 {
         padding-bottom:4px;
     }
-    .car1 {
-        left:65px;
-        top:2500px;
+    
+    .end2 {
+        padding-right:50px;
     }
-    .car2 {
-        left:290px;
-        top:2550px;
-        width:175px;
-    }
-    .car2_img {
-        width:145px;
-        left:15px;
-    }
-    .car3 {
-        left:50px;
-        top:2726px;
-        width:175px;
-    }
-    .car3_img {
-        width:145px;
-        left:15px;
-    }
-    .car4 {
-        left:250px;
-        top:2900px;
+    .car {
+        display: none;
     }
 }
 
@@ -733,7 +708,7 @@ h2 {
         flex-direction:row;
     }
     .whatido {
-        padding-left:20px;
+        padding-left:200px;
     }
     .change1 {
         width:350px;
@@ -780,21 +755,21 @@ h2 {
         padding-bottom:4px;
     }
     .car1 {
-        top:1240px;
+        top:1540px;
         left:400px;
         width:175px;
         height:150px;
-        transform:rotate(180deg);
+        
     }
     .car1_img {
         width:150px;
         height:120px;
         top:15px;
         left:11px;
-        transform:rotate(180deg);
+       
     }
     .car2 {
-        top:1240px;
+        top:1540px;
         left:590px;
         width:175px;
     }
@@ -803,7 +778,7 @@ h2 {
         left:15px;
     }
     .car3 {
-        top:1400px;
+        top:1700px;
         left:400px;
         width:175px;
     }
@@ -812,7 +787,7 @@ h2 {
         left:15px;
     }
     .car4 {
-        top:1580px;
+        top:1880px;
         left:590px;
         width:170px;
     }
@@ -820,7 +795,5 @@ h2 {
         width:150px;
         left:10px;
     }
-    
-
-
 }
+
