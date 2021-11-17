@@ -31,6 +31,7 @@ var para2 = document.querySelector(".para2");
 var ro1 = document.querySelector(".ro1");
 var ro2 = document.querySelector(".ro2");
 var nav_part = document.querySelector(".nav-part");
+var float_container = document.querySelector(".float-container");
 
 fetch('./file.json')
  .then((response)=>{return response.json()})
@@ -43,7 +44,8 @@ fetch('./file.json')
     ro1.innerHTML+='<div class="f1"><i class="lni lni-checkmark-circle"></i>  <span class="point">'+item.f1heading+'</span></div><div class="s1"><i class="lni lni-checkmark-circle"></i>  <span class="point">'+item.s1heading+'</span></div>'
     ro2.innerHTML+='<div class="f2"><i class="lni lni-checkmark-circle"></i>  <span class="point">'+item.f2heading+'</span></div><div class=" s2"><i class="lni lni-checkmark-circle"></i>  <span class="point">'+item.s2heading+'</span></div>'
     nav_part.innerHTML+='<div class="heading"><div class="heading-text">'+item.headingText+'</div></div><p class="works">'+item.works+'<span class="main"> <a class="link" onclick="one()"><span class="navigate active">'+item.navigate+'</span></a ><a class="link"  onclick="two()"><span class="other-navigate">'+item.otherNavigate+'</span></a></span></p>'
- })})
+    float_container.innerHTML+='<div class="card1 float-child"><div class="card-data"><p class="card-desc">'+item.cardDesc+'</p><p class="card-desc-sec">'+item.cardDescSec+'</p><span class="group"><span class="keyword">'+item.keyword+'</span><span class="keyword">'+item.keyword1+'</span><span class="keyword">'+item.keyword2+'</span></span></div><div class="image"><img class="card-img"src="'+item.src+'"alt=""/></div></div>'
+  })})
 
 document.getElementById("card2").style.display = "none";
 

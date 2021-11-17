@@ -14,15 +14,26 @@
         "s1heading":"Creative Idea",
         "f2heading":"Search a lot",
         "s2heading":"High Quality",
+
+      
         "headingText":"My portfolio",
         "works":"Some of my distinguish works ",
         "navigate":"Mobile App",
         "otherNavigate":"Web Design",
+
         "cardDesc":"Web UI-UX Design",
         "cardDescSec":"Web UI-UX Design Web UI-UX Design",
-        "keyword":"web",
-        "keyword1":"web",
-        "keyword2":"UI-UX"     
+        "keyword":"Web",
+        "keyword1":"Web",
+        "keyword2":"Web UI-UX",
+
+        "src":"./images/Rectangle 30.jpg",
+        "src1":"./images/Rectangle 30.jpg",
+        "src2":"./images/Rectangle 30.jpg",
+        "src3":"./images/Rectangle 30.jpg",
+        "src4":"./images/Rectangle 30.jpg",
+        "src5":"./images/Rectangle 30.jpg"
+
 
     }
 ]
