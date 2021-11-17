@@ -30,6 +30,7 @@ var para1 = document.querySelector(".para1");
 var para2 = document.querySelector(".para2");
 var ro1 = document.querySelector(".ro1");
 var ro2 = document.querySelector(".ro2");
+var nav_part = document.querySelector(".nav-part");
 
 fetch('./file.json')
  .then((response)=>{return response.json()})
@@ -41,7 +42,7 @@ fetch('./file.json')
     para2.innerHTML+='<div class="hea"><h2>'+item.para2heading+'</h2></div> <h5 class="p2">'+item.para2para+'</h5>'
     ro1.innerHTML+='<div class="f1"><i class="lni lni-checkmark-circle"></i>  <span class="point">'+item.f1heading+'</span></div><div class="s1"><i class="lni lni-checkmark-circle"></i>  <span class="point">'+item.s1heading+'</span></div>'
     ro2.innerHTML+='<div class="f2"><i class="lni lni-checkmark-circle"></i>  <span class="point">'+item.f2heading+'</span></div><div class=" s2"><i class="lni lni-checkmark-circle"></i>  <span class="point">'+item.s2heading+'</span></div>'
-    
+    nav_part.innerHTML+='<div class="heading"><div class="heading-text">'+item.heading-text+'</div></div><p class="works">'+item.works+' <span class="main"><a href="" class="link"><span class="navigate active">'+item.navigate+'</span></a ><a href="" class="link"><span class="other-navigate ">'+item.other-navigate+'</span></a></span></p>'
  })})
 
 document.getElementById("card2").style.display = "none";

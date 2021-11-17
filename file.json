@@ -13,8 +13,16 @@
         "f1heading":"Problem Solving",
         "s1heading":"Creative Idea",
         "f2heading":"Search a lot",
-        "s2heading":"High Quality"
-        
+        "s2heading":"High Quality",
+        "heading-text":"My portfolio",
+        "works":"Some of my distinguish works ",
+        "navigate":"Mobile App",
+        "other-navigate":"Web Design",
+        "card-desc":"Web UI-UX Design",
+        "card-desc-sec":"Web UI-UX Design Web UI-UX Design",
+        "keyword":"web",
+        "keyword1":"web",
+        "keyword2":"UI-UX"     
 
     }
 ]
