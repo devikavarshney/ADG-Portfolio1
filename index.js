@@ -32,6 +32,11 @@ var ro1 = document.querySelector(".ro1");
 var ro2 = document.querySelector(".ro2");
 var nav_part = document.querySelector(".nav-part");
 var float_container = document.querySelector(".float-container");
+var BigName = document.querySelector(".Big-Name");
+var job = document.querySelector(".line1");
+var picture=document.querySelector(".picture");
+var car = document.querySelector(".car");
+
 
 fetch('./file.json')
  .then((response)=>{return response.json()})
@@ -45,6 +50,12 @@ fetch('./file.json')
     ro2.innerHTML+='<div class="f2"><i class="lni lni-checkmark-circle"></i>  <span class="point">'+item.f2heading+'</span></div><div class=" s2"><i class="lni lni-checkmark-circle"></i>  <span class="point">'+item.s2heading+'</span></div>'
     nav_part.innerHTML+='<div class="heading"><div class="heading-text">'+item.headingText+'</div></div><p class="works">'+item.works+'<span class="main"> <a class="link" onclick="one()"><span class="navigate active">'+item.navigate+'</span></a ><a class="link"  onclick="two()"><span class="other-navigate">'+item.otherNavigate+'</span></a></span></p>'
     float_container.innerHTML+='<div class="card1 float-child"><div class="card-data"><p class="card-desc">'+item.cardDesc+'</p><p class="card-desc-sec">'+item.cardDescSec+'</p><span class="group"><span class="keyword">'+item.keyword+'</span><span class="keyword">'+item.keyword1+'</span><span class="keyword">'+item.keyword2+'</span></span></div><div class="image"><img class="card-img"src="'+item.src+'"alt=""/></div></div>'
+    BigName.innerHTML+='<h1>'+item.BigName1+'</h1><h1>'+item.BigName2+'</h1>'
+    job.innerHTML+='<span>'+item.work+'</span>'
+    picture.innerHTML+='<img src="'+item.srcshams+'" class="image1">'
+    car.innerHTML+='<div class="car1" data-aos="fade-left"><img src="'+item.src1+'"class="car1_img"></div><div class="car2" data-aos="fade-left" ><img src="'+item.src2+'"  class="car2_img"></div><div class="car3" data-aos="fade-left" ><img src="'+item.src3+'"  class="car3_img"></div><div class="car4" data-aos="fade-left" ><img src="'+item.src4+'"  class="car4_img"></div>'
+
+    
   })})
 
 document.getElementById("card2").style.display = "none";

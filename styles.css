@@ -478,7 +478,7 @@ footer {
     display:flex;
     padding-top:60px;
     padding-left:150px;
-    padding-bottom:150px;
+    padding-bottom:200px;
    
 }
 .aboutme {
@@ -546,10 +546,11 @@ footer {
 
 .footer2 {
     font-weight:bold;
-    font-size:18px;
+    font-size:15px;
     line-height:22px;
     color:#652CDF;
     cursor:pointer;
+    
 }
 
 
@@ -804,4 +805,3 @@ footer {
         left:10px;
     }
 }
-
