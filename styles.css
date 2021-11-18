@@ -809,10 +809,9 @@ footer {
  
 
       
-      
-/*       /*Satyam Part*/
+            /*Satyam Part*/
 
-*{
+/* *{
     margin: 0px;
     padding: 0px;
    
@@ -1139,132 +1138,5 @@ border-radius: 6px;
         width: 80%;
         padding: 10%;
     }
-}
-    }
-    .hea {
-        width:300px;
-        font-size:15px;
-    }
-    .p2 {
-        font-size:15px;
-        width:250px;
-        padding-top:5px;
-    }
-    .ro1 {
-        font-size:15px;
-        flex-direction:column;
-    }
-    .ro2 {
-        font-size:15px;
-        flex-direction:column;
-    }
-    .s1 {
-        padding-top:30px;
-    }
-    .f2 {
-        padding-bottom:4px;
-    }
-    
-    .end2 {
-        padding-right:50px;
-    }
-    .car {
-        display: none;
-    }
-}
-
-@media screen and (min-width:768px) and (max-width:1023px)
-{
-    .segment1{
-        display:flex;
-        flex-direction:row;
-    }
-    .whatido {
-        padding-left:200px;
-    }
-    .change1 {
-        width:350px;
-    }
-    .box {
-        display:flex;
-        flex-direction:column;
-    }
-    .box1 {
-        left:60px;
-    }
-    .box2 {
-        top:15px;
-        left:60px;
-    }
-    .box3 {
-        top:30px;
-        left:60px;
-    }
-    .segment2 {
-        padding-left:30px;
-    }
-    .aboutme {
-        padding-left:30px;
-        padding-top:100px;
-    }
-    .change2 {
-        width:300px;
-    }
-    .p2 {
-        width:300px;
-        padding-top:20px;
-    }
-    .ro1 {
-        flex-direction:column;
-    }
-    .ro2 {
-        flex-direction:column;
-    }
-    .s1 {
-        padding-top:30px;
-    }
-    .f2 {
-        padding-bottom:4px;
-    }
-    .car1 {
-        top:1540px;
-        left:400px;
-        width:175px;
-        height:150px;
-        
-    }
-    .car1_img {
-        width:150px;
-        height:120px;
-        top:15px;
-        left:11px;
-       
-    }
-    .car2 {
-        top:1540px;
-        left:590px;
-        width:175px;
-    }
-    .car2_img {
-        width:145px;
-        left:15px;
-    }
-    .car3 {
-        top:1700px;
-        left:400px;
-        width:175px;
-    }
-    .car3_img {
-        width:145px;
-        left:15px;
-    }
-    .car4 {
-        top:1880px;
-        left:590px;
-        width:170px;
-    }
-    .car4_img {
-        width:150px;
-        left:10px;
-    }
 } */
+   
