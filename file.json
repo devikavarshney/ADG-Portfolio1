@@ -10,9 +10,9 @@
         "box1heading":"Mobile App Design",
         "box2heading":"Prototyping & Wireframing",
         "box3heading":"Website Design",
-        "box1img":"images/vector1.png",
-        "box2img":"images/vector2.png",
-        "box3img":"images/vector3.png",
+        "box1img":"./images/vector1.png",
+        "box2img":"./images/vector2.png",
+        "box3img":"./images/vector3.png",
         "para1heading":"Better Design, Better Experiences",
         "para1para":"quicksand quicksand is good quicksand quicksand quicksand quicksand",
         "para2heading":"Hi, Im here to help your next project",
@@ -80,11 +80,11 @@
         ],
         "cardsWeb": [
             {
-                "cardDesc": "Web UI-UX Design",
-                "cardDescSec": "Web UI-UX Design Web UI-UX Design",
+                "cardDesc": "Web UI Design",
+                "cardDescSec": "Web UI Design Web UI Design",
                 "keyword": "Web",
                 "keyword1": "Web",
-                "keyword2": "Web UI-UX",
+                "keyword2": "Web UI",
                 "src": "./images/Rectangle 30.jpg"
             },
             {
@@ -125,7 +125,7 @@
                 "keyword": "Web",
                 "keyword1": "Web",
                 "keyword2": "Web UI-UX",
-                "src": "./images/Rectangle 30.png"
+                "src": "./images/Rectangle 30.jpg"
             }
         ]
 
