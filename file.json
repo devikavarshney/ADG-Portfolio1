@@ -14,6 +14,7 @@
         "s1heading": "Creative Idea",
         "f2heading": "Search a lot",
         "s2heading": "High Quality",
+
         "headingText": "My portfolio",
         "works": "Some of my distinguish works ",
         "navigate": "Mobile App",
@@ -70,8 +71,8 @@
         ],
         "cardsWeb": [
             {
-                "cardDesc": "Web UI-UX Design",
-                "cardDescSec": "Web UI-UX Design Web UI-UX Design",
+                "cardDesc": "Web UI Design",
+                "cardDescSec": "Web UI Design Web UI-UX Design",
                 "keyword": "Web",
                 "keyword1": "Web",
                 "keyword2": "Web UI-UX",
@@ -115,7 +116,7 @@
                 "keyword": "Web",
                 "keyword1": "Web",
                 "keyword2": "Web UI-UX",
-                "src": "./images/Rectangle 30.png"
+                "src": "./images/Rectangle 30.jpg"
             }
         ]
     }

@@ -92,6 +92,7 @@ fetch("./file.json")
         '</span></a ><a class="link"  onclick="two()"><span class="other-navigate">' +
         item.otherNavigate +
         "</span></a></span></p>";
+        
 
       for (var i = 0; i < item.cards.length / 2; i++) {
         card_part.innerHTML +=
