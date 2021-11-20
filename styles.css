@@ -805,3 +805,324 @@ footer {
     }
 }
 
+
+
+/*Satyam's Part*/
+.S-header{
+  position: relative;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.line{
+    margin:0;
+
+}
+.line::before{
+content: "";
+width: 55px;
+height: 3px;
+top:50%;
+background: #652CDF;
+border-radius: 4px;
+position: absolute;
+}
+.testimonials-text, .contact-me-text{
+    margin-left: 60px;
+}
+.white{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.Experiences{
+    margin-left: 150px;
+    margin-right: 157px;
+    width: 603px;
+    overflow: hidden;     
+}
+
+.cards{
+position: absolute;
+height:100%;
+width: 100%;
+object-fit: cover;
+}
+.card-container
+{
+ position: relative;  
+ height:300px;
+ transition: transform 300ms ease-in;
+}
+.bold-heading{
+font-size: 33px;
+line-height: 40px;
+margin-top: 20px;
+}
+
+.contactMe .bold-heading
+{
+margin-top:18px ;
+}
+#Company-Name{
+
+    font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+margin-top: 70px;
+color: #858487;
+}
+
+.purple{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    color: #652CDF;
+}
+#Year{
+  
+    
+font-size: 24px;
+line-height: 29px;
+
+margin-top: 5px;
+}
+.details{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 184.52%;
+    color: #858487;
+    margin-top: 27px;
+    margin-bottom: 10px ;
+}
+.scroll{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 74px;
+}
+.scroll-panel{
+    width: 346px;
+    height: 0px;
+    margin: 0;
+    padding: 0;
+    border: 4px solid #131118;
+    
+}
+.nav-scroll{
+    width: 116px;
+    margin: 0;
+    padding: 0;
+    height: 0px;
+    border: 4px solid rgba(101, 44, 223, 0.7);
+    position: absolute;
+    margin-top: -4px;
+    margin-left: -3px;
+    transition: transform 300ms ease-in;
+}
+button{
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+button :focus{
+    background: transparent;
+}
+.skills{
+    margin-top:259px ;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+}
+img{
+    margin: 0px 10px;
+}
+.progressbar{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px dashed rgba(101, 44, 223, 0.2);
+    box-sizing: border-box;
+}
+.circle{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    width: 121.43px;
+    height: 121.43px;
+}
+svg .inner-circle{
+    cx: 61;
+    cy: 60;
+    r: 56;
+    fill:none;
+    stroke: #652CDF;
+    stroke-width: 4;
+    stroke-dasharray: 352;
+    stroke-dashoffset: 352;
+    
+}
+.progressbar span{
+    position: absolute;
+}
+.progressbar .percentage{
+    font-family: Quicksand;
+   top:28.54px;
+   font-size: 36px;
+line-height: 45px;
+
+}
+#skillname{
+    top:74.29px;
+    font-size: 14px;
+    line-height: 17px;
+}
+@keyframes anim1 {
+    100%{
+        stroke-dashoffset: 17.6;
+    }
+}
+@keyframes anim2 {
+    100%{
+        stroke-dashoffset: 35.2;
+    }
+}
+@keyframes anim3 {
+    100%{
+        stroke-dashoffset: 88;
+    }
+}
+@keyframes anim4 {
+    100%{
+        stroke-dashoffset: 176;
+    }
+}
+.contactMe{
+    margin-top: 238px;
+    margin-left: 177px;
+    display: flex;
+    flex-direction: row;
+}
+.contactDetails{
+    width: 620px;
+    
+}
+.personalInfo{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.personalInfo span{
+    text-align: center;
+    margin: auto;
+}
+
+.logos{
+    display: inline-block;
+    width: 35px;
+height: 35px;
+background-color: rgba(101, 44, 223, 0.2);
+border-radius: 6px;
+}
+.Infos{
+    font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 24px;
+color: #858487;
+margin-top: 27px;
+}
+.icons{
+  position:relative; 
+  top: 10px;
+}
+.form{
+    width: 376px;
+}
+.form-elements{
+    width: 100%;
+    height: 24px;
+    font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+background: #131118;
+border-radius: 6px;
+border: none;
+padding: 33px;
+color: #858487;
+}
+#form-email{
+    margin-top: 35px;
+}
+#form-subject{
+    margin-top: 28px;
+}
+#form-message{
+    margin-top: 36px;
+    height: 178px;
+}
+.form button{
+    width: 133px;
+height: 47px;
+border: 2px solid #652CDF;
+box-sizing: border-box;
+color: #652CDF;
+margin-top: 59px;
+border-radius: 6px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+@media only screen and (max-width:480px) {
+   *{
+        margin:auto;
+        
+    }
+    body{
+        background-color: rgb(154, 236, 209);
+    }
+    .Experiences{
+        margin: auto;
+        width: 90%;
+        align-items: center;
+
+    }
+   
+
+    .contactMe{
+        width: 100%;
+        flex-direction: column;
+        margin: 0;
+    }
+    
+    .contactDetails{
+        width: 100%;
+    }
+    .form{
+        width:100%;
+    }
+    .form-elements{
+        width: 80%;
+        padding: 10%;
+    }
+} 
