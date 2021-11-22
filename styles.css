@@ -896,27 +896,18 @@ footer {
       
             /*Satyam Part*/
 
-/* *{
-    margin: 0px;
-    padding: 0px;
-   
-}
-body{
-    background: #0C0A10;
-    height: 100vh;
-}
- .header{
-position: relative;
-}
-.header{
+.S-header{
+  position: relative;
     font-family: Inter;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
     line-height: 22px;
 }
+
 .line{
     margin:0;
+
 }
 .line::before{
 content: "";
@@ -942,6 +933,7 @@ position: absolute;
     width: 603px;
     overflow: hidden;     
 }
+
 .cards{
 position: absolute;
 height:100%;
@@ -959,11 +951,13 @@ font-size: 33px;
 line-height: 40px;
 margin-top: 20px;
 }
+
 .contactMe .bold-heading
 {
 margin-top:18px ;
 }
 #Company-Name{
+
     font-family: Inter;
 font-style: normal;
 font-weight: bold;
@@ -972,6 +966,7 @@ line-height: 29px;
 margin-top: 70px;
 color: #858487;
 }
+
 .purple{
     font-family: Inter;
     font-style: normal;
@@ -983,6 +978,7 @@ color: #858487;
     
 font-size: 24px;
 line-height: 29px;
+
 margin-top: 5px;
 }
 .details{
@@ -1076,6 +1072,7 @@ svg .inner-circle{
    top:28.54px;
    font-size: 36px;
 line-height: 45px;
+
 }
 #skillname{
     top:74.29px;
@@ -1121,9 +1118,7 @@ line-height: 45px;
     text-align: center;
     margin: auto;
 }
-.personalInfo img{
- 
-}
+
 .logos{
     display: inline-block;
     width: 35px;
@@ -1139,6 +1134,10 @@ font-size: 20px;
 line-height: 24px;
 color: #858487;
 margin-top: 27px;
+}
+.icons{
+  position:relative; 
+  top: 10px;
 }
 .form{
     width: 376px;
@@ -1181,34 +1180,3 @@ border-radius: 6px;
     font-size: 18px;
     line-height: 22px;
 }
-@media only screen and (max-width:480px) {
-   *{
-        margin:auto;
-        
-    }
-    body{
-        background-color: rgb(154, 236, 209);
-    }
-    .Experiences{
-        margin: auto;
-        width: 90%;
-        align-items: center;
-    }
-   
-    .contactMe{
-        width: 100%;
-        flex-direction: column;
-        margin: 0;
-    }
-    
-    .contactDetails{
-        width: 100%;
-    }
-    .form{
-        width:100%;
-    }
-    .form-elements{
-        width: 80%;
-        padding: 10%;
-    }
-} */
