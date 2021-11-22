@@ -1030,9 +1030,7 @@ button :focus{
     flex-wrap: wrap;
     position: relative;
 }
-img{
-    margin: 0px 10px;
-}
+
 .progressbar{
     display: flex;
     justify-content: center;
