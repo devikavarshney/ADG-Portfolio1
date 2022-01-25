@@ -1,19 +1,136 @@
 [
     {
-        "box1heading": "Mobile App Design",
-        "box2heading": "Prototyping & Wireframing",
-        "box3heading": "Website Design",
-        "box1img": "images/vector1.png",
-        "box2img": "images/vector2.png",
-        "box3img": "images/vector3.png",
-        "para1heading": "Better Design, Better Experiences",
-        "para1para": "quicksand quicksand is good quicksand quicksand quicksand quicksand",
-        "para2heading": "Hi, Im here to help your next project",
-        "para2para": "quicksand quicksand is gksandquicksand quicksand is good quicksand quicksand quicksand quicksand",
-        "f1heading": "Problem Solving",
-        "s1heading": "Creative Idea",
-        "f2heading": "Search a lot",
-        "s2heading": "High Quality",
+        
+        "BigName1":"IBRAHIM",
+        "BigName2":"SHAMMS",
+        "line1":"UI & UX Designer",
+        "srcshams":"shamsbhaiya.png",
+        
+        
+        "box1heading":"Mobile App Design",
+        "box2heading":"Prototyping & Wireframing",
+        "box3heading":"Website Design",
+        "box1img":"./images/vector1.png",
+        "box2img":"./images/vector2.png",
+        "box3img":"./images/vector3.png",
+        "para1heading":"Better Design, Better Experiences",
+        "para1para":"quicksand quicksand is good quicksand quicksand quicksand quicksand",
+        "para2heading":"Hi, Im here to help your next project",
+        "para2para":"quicksand quicksand is gksandquicksand quicksand is good quicksand quicksand quicksand quicksand",
+        "f1heading":"Problem Solving",
+        "s1heading":"Creative Idea",
+        "f2heading":"Search a lot",
+        "s2heading":"High Quality",
+         "src1":"./images/Rectangle 17.png ",
+         "src2":" ./images/Rectangle 19.png",
+          "src3":"./images/Rectangle 20.png ",
+          "src4":"./images/Rectangle 18.png ",
+      
+        "headingText":"My portfolio",
+        "works":"Some of my distinguish works ",
+        "navigate":"Mobile App",
+        "otherNavigate":"Web Design",
+        
+ "cards": [
+            {
+                "cardDesc": "Web UI-UX Design",
+                "cardDescSec": "Web UI-UX Design Web UI-UX Design",
+                "keyword": "Web",
+                "keyword1": "Web",
+                "keyword2": "Web UI-UX",
+                "src": "./images/Rectangle 30.jpg"
+            },
+            {
+                "cardDesc": "Web UI-UX Design",
+                "cardDescSec": "Web UI-UX Design Web UI-UX Design",
+                "keyword": "Web",
+                "keyword1": "Web",
+                "keyword2": "Web UI-UX",
+                "src": "./images/Rectangle 30-1.jpg"
+            },
+            {
+                "cardDesc": "Web UI-UX Design",
+                "cardDescSec": "Web UI-UX Design Web UI-UX Design",
+                "keyword": "Web",
+                "keyword1": "Web",
+                "keyword2": "Web UI-UX",
+                "src": "./images/Rectangle 30-2.jpg"
+            },
+            {
+                "cardDesc": "Web UI-UX Design",
+                "cardDescSec": "Web UI-UX Design Web UI-UX Design",
+                "keyword": "Web",
+                "keyword1": "Web",
+                "keyword2": "Web UI-UX",
+                "src": "./images/Rectangle 30-3.jpg"
+            },
+            {
+                "cardDesc": "Web UI-UX Design",
+                "cardDescSec": "Web UI-UX Design Web UI-UX Design",
+                "keyword": "Web",
+                "keyword1": "Web",
+                "keyword2": "Web UI-UX",
+                "src": "./images/Rectangle 30-4.jpg"
+            },
+            {
+                "cardDesc": "Web UI-UX Design",
+                "cardDescSec": "Web UI-UX Design Web UI-UX Design",
+                "keyword": "Web",
+                "keyword1": "Web",
+                "keyword2": "Web UI-UX",
+                "src": "./images/Rectangle 30.jpg"
+            }
+        ],
+        "cardsWeb": [
+            {
+                "cardDesc": "Web UI Design",
+                "cardDescSec": "Web UI Design Web UI Design",
+                "keyword": "Web",
+                "keyword1": "Web",
+                "keyword2": "Web UI",
+                "src": "./images/Rectangle 30.jpg"
+            },
+            {
+                "cardDesc": "Web UI-UX Design",
+                "cardDescSec": "Web UI-UX Design Web UI-UX Design",
+                "keyword": "Web",
+                "keyword1": "Web",
+                "keyword2": "Web UI-UX",
+                "src": "./images/Rectangle 30-1.jpg"
+            },
+            {
+                "cardDesc": "Web UI-UX Design",
+                "cardDescSec": "Web UI-UX Design Web UI-UX Design",
+                "keyword": "Web",
+                "keyword1": "Web",
+                "keyword2": "Web UI-UX",
+                "src": "./images/Rectangle 30-2.jpg"
+            },
+            {
+                "cardDesc": "Web UI-UX Design",
+                "cardDescSec": "Web UI-UX Design Web UI-UX Design",
+                "keyword": "Web",
+                "keyword1": "Web",
+                "keyword2": "Web UI-UX",
+                "src": "./images/Rectangle 30-3.jpg"
+            },
+            {
+                "cardDesc": "Web UI-UX Design",
+                "cardDescSec": "Web UI-UX Design Web UI-UX Design",
+                "keyword": "Web",
+                "keyword1": "Web",
+                "keyword2": "Web UI-UX",
+                "src": "./images/Rectangle 30-4.jpg"
+            },
+            {
+                "cardDesc": "Web UI-UX Design",
+                "cardDescSec": "Web UI-UX Design Web UI-UX Design",
+                "keyword": "Web",
+                "keyword1": "Web",
+                "keyword2": "Web UI-UX",
+                "src": "./images/Rectangle 30.jpg"
+            }
+        ],
 
         "headingText": "My portfolio",
         "works": "Some of my distinguish works ",
