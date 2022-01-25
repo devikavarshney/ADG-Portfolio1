@@ -928,12 +928,100 @@ position: absolute;
     color: #FFFFFF;
 }
 .Experiences{
-    margin-left: 150px;
+    padding-top: 100px;
+}
+.Experience-cards{
+   margin-left: 150px;
     margin-right: 157px;
     width: 603px;
     overflow: hidden;     
 }
+.Exp-wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+.image-css{
+    width: 550px;
+    margin: auto;
+    margin-left: 50px;
+    padding-left: 150px;
+    position: relative;
+}
+.centre-circle circle{
+   cx:210;
+    cy:210;
+     r:170;
+      stroke:#131118;
+       stroke-width:80;
+        fill:none;
+}
+.centre-circle{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+.your-photo{
+    position: absolute;
+    height: 220px;
+    width:220px;
+    border-radius: 50%;
+    margin: auto;
+    top: 100px;
+    left: 100px;
+}
+.smel-1{
+    position: absolute;
+    top:0px;
+    left: 0px;
+}
+.smel-2{
+    position: absolute;
+    top:0px;
+    left: 500px;
+}
+.smel-3{
+    position: absolute;
+    top:50px;
+    left: 100px;
+}
+.smel-4{
+    position: absolute;
+    top:500px;
+    left: 300px;
+}
+.smel{
+    position: absolute;
+    stroke:rgba(101, 44, 223, 0.2);
+    
+    fill:rgba(101, 44, 223, 0.8);;
 
+        
+}
+#smcircle-1{
+    cx:50;
+    cy:50;
+    r:7;
+    stroke-width:15;
+}
+#smcircle-2{
+    cx:50;
+    cy:50;
+    r:8;
+    stroke-width:19;
+}
+#smcircle-3{
+    cx:50;
+    cy:50;
+    r:5;
+    stroke-width:12;
+}
+#smcircle-4{
+    cx:50;
+    cy:50;
+    r:7;
+    stroke-width:16;
+}
 .cards{
 position: absolute;
 height:100%;
@@ -1177,4 +1265,58 @@ border-radius: 6px;
     font-weight: bold;
     font-size: 18px;
     line-height: 22px;
+}
+@media only screen and (max-width:1488px){
+    .Exp-wrapper{
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .Experiences{
+        padding:0;
+        margin: auto;
+        width: 90%;
+        align-items: center;
+        margin-bottom: 300px;
+        margin-top: 300px;
+
+    }
+    .Experience-cards
+    {
+        margin: auto;
+        width: 100%;
+    }
+
+
+    .skills{
+        margin: auto;
+        width: 90%;
+        margin-bottom: 300px;
+        margin-top: 300px;
+    }
+    .contactMe{
+        margin: auto;
+        width: 90%;;
+        flex-direction: column;
+        margin: 0;
+    }
+    
+    .contactDetails{
+        margin: auto;
+        width: 90%;;
+        margin-bottom: 300px;
+
+    }
+    .form{
+        margin: auto;
+        width: 90%;
+        margin-bottom: 300px;
+    }
+    .form-elements{
+        width: 80%;
+        padding: 10%;
+    }
+}
 }
