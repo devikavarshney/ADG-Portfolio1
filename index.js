@@ -20,9 +20,12 @@ fetch("./file.json")
   .then((result) => {
     result.map((item) => {
       landing.innerHTML +=
-        '<div class="top-container"><div class=top-container-text> Hello</div> <div class="NameStart"><h1>Hey! I Am</h1></div><div class="Sizing"><div class="Big-Name"><div class="wrapper"><div><ul class="dynamic-txts"><li><span>'+item.BigName1+'</span></li><li><span>'+item.BigName2+'</span></li></ul></div> </div></div> <div class="line1">' +
+        '<div class="top-container"><div class="bacha"><div class=top-container-text> Hello</div> <div class="NameStart"><h1>Hey! I Am</h1></div><div class="Sizing"><div class="wrapper"><div class="ani">'
+        +'<h1 class="jt --debug"><span class="jt__row"><span class="jt__text">'+item.BigName1+' '+item.BigName2+'</span></span><span class="jt__row jt__row--sibling" aria-hidden="true"><span class="jt__text">'+item.BigName1+' '+item.BigName2+'</span>'
++'  </span><span class="jt__row jt__row--sibling" aria-hidden="true"><span class="jt__text">'+item.BigName1+' '+item.BigName2+'</span></span><span class="jt__row jt__row--sibling" aria-hidden="true"><span class="jt__text">'+item.BigName1+' '+item.BigName2+'</span>'
++' </span></h1></div></div> <div class="line1">' +
         item.line1 +
-        '</div><div class=hire-but><button class="button" style="vertical-align:middle"><span>Hire Me </span></button></div></div> <div class="picture" data-aos="fade-left"><img src="shamsbhaiya.png" class="image1"> </div>';
+        '</div><div class=hire-but><button class="button" style="vertical-align:middle"><span>Hire Me </span></button></div></div>  </div><div class="picture bacha" data-aos="fade-left"><img src="shamsbhaiya.png" class="image1"> </div>';
       box1.innerHTML +=
         '<div class="box_info"><img src=' +
         item.box1img +
